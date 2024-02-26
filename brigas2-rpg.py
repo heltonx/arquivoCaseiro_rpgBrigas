@@ -12,22 +12,22 @@ class GloryTender:
 	localizacao=''
 
 	def __init__(self,nome,golpe,poder,localizacao):
-		__doc__="""vamos declarar essa bosta????"""
+		__doc__="""vamos declarar essa maravilha????"""
 		self.nome = nome
 		self.golpe = golpe
 		self.poder = poder
 		self.localizacao= localizacao
 
-	def ataca_hitler(self):
-		__doc__="""Nosso herói atacará o Adolfo"""
-		print(self.nome+"atacou o hitler com um"+self.golpe)
+	def ataca_inimigo(self):
+		__doc__="""Nosso herói atacará o inimigo"""
+		print(self.nome+"atacou o inimigo com um"+self.golpe)
 		
 	def usa_arma(self):
 		x = input("escolha uma instancia da arma que tu queres: ")
 		print(self.nome + " usou " + x.nome +" e "+x.tiro_alvo())
                 
 class Arma:
-	__doc__="""Ferramentas e instrumentos de guerra pros nossos heróis sairem na porrada e destruirem o capeta"""
+	__doc__="""Ferramentas e instrumentos de guerra pros nossos heróis sairem no conflito e destruirem o inimigo"""
 	nome=''
 	poder=0
 	
@@ -63,7 +63,7 @@ class Iterations:
 		self.jogador2=jogador2
   
 	def briga(self):
-		print(self.jogador1.nome," deu um pontepé na bundo do ",self.jogador2.nome,", deixando ",self.jogador2.poder,"cm de cu aberto")
+		print(self.jogador1.nome," deu um pontepé na bundo do ",self.jogador2.nome,", deixando ",self.jogador2.poder,"cm de cais aberto")
 
 	def compara(self):
 		if self.jogador1.poder > self.jogador2.poder:
@@ -73,7 +73,7 @@ class Iterations:
 
 #Fim do programa
 
-olavo = GloryTender('Olavo de Carvalho ',' vai tomar no cu!',6,'Virgínia')
+mestre = GloryTender('Grande mestre ',' vai tomar caju!',6,'Virgínia')
 rubens = GloryTender('Irmão Rubens','Seus cães gulosos!',3,'Fluminência')
 pinto = GloryTender('Paulo Sérgio Pinto','Estamos encerrando Pampa Debates',4,'Alto Guaíba')
 
