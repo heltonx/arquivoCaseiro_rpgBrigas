@@ -18,7 +18,7 @@ class GloryTender:
 		self.poder = poder
 		self.localizacao= localizacao
 
-	def ataca_inimigo(self):
+	def attack_enemy(self):
 		__doc__="""Nosso herói atacará o inimigo"""
 		print(self.nome+"atacou o inimigo com um"+self.golpe)
 		
