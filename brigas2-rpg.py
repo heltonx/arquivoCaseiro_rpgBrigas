@@ -42,7 +42,7 @@ class Gun:
 		if sort == 1:
 			return ('shot on floor!!')
 		elif sort ==2:
-			return ('atirou dez metros acima do alvo')
+			return ('shot ten meters above the target')
 		elif sort ==3:
 			return ('acertou no alvo, mas na borda')
 		elif sort ==4:
