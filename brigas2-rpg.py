@@ -22,7 +22,7 @@ class GloryTender:
 		__doc__="""Nosso herói atacará o inimigo"""
 		print(self.nome+"atacou o inimigo com um"+self.golpe)
 		
-	def usa_arma(self):
+	def use_gun(self):
 		x = input("escolha uma instancia da arma que tu queres: ")
 		print(self.nome + " usou " + x.nome +" e "+x.tiro_alvo())
                 
