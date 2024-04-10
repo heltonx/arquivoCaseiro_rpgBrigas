@@ -79,4 +79,4 @@ pinto = GloryTender('Paulo Sérgio Pinto','Estamos encerrando Pampa Debates',4,'
 
 pistola = Gun("Pistola Calibre 38",4)
 ak = Gun('AK-47',7)
-espada = Arma('Espada',3)
+espada = Gun('Espada',3)
