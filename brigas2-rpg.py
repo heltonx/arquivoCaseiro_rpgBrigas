@@ -78,5 +78,5 @@ rubens = GloryTender('Irmão Rubens','Seus cães gulosos!',3,'Fluminência')
 pinto = GloryTender('Paulo Sérgio Pinto','Estamos encerrando Pampa Debates',4,'Alto Guaíba')
 
 pistola = Gun("Pistola Calibre 38",4)
-ak = Arma('AK-47',7)
+ak = Gun('AK-47',7)
 espada = Arma('Espada',3)
