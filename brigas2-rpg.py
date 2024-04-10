@@ -12,7 +12,7 @@ class GloryTender:
 	localizacao=''
 
 	def __init__(self,nome,golpe,poder,localizacao):
-		__doc__="""vamos declarar essa maravilha????"""
+		__doc__="""lets declarate"""
 		self.nome = nome
 		self.golpe = golpe
 		self.poder = poder
