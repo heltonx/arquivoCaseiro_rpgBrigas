@@ -26,7 +26,7 @@ class GloryTender:
 		x = input("escolha uma instancia da arma que tu queres: ")
 		print(self.nome + " usou " + x.nome +" e "+x.tiro_alvo())
                 
-class Arma:
+class Gun:
 	__doc__="""Ferramentas e instrumentos de guerra pros nossos heróis sairem no conflito e destruirem o inimigo"""
 	nome=''
 	poder=0
