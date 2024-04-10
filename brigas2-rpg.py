@@ -35,7 +35,7 @@ class Gun:
 		self.nome = nome
 		self.poder = poder
 
-	def tiro_alvo(self):
+	def shot_target(self):
 
 		sort = random.randint(1,10)
 
