@@ -40,7 +40,7 @@ class Gun:
 		sort = random.randint(1,10)
 
 		if sort == 1:
-			return ('atirou no chao!!!')
+			return ('shot on floor!!')
 		elif sort ==2:
 			return ('atirou dez metros acima do alvo')
 		elif sort ==3:
